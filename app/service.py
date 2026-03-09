@@ -1,5 +1,3 @@
-# app/service.py
-
 from datetime import datetime
 from app.models import IdentifyResponse, ContactResponse
 from app.metrics import contacts_created_total, identity_merges_total, reconciliation_duration_seconds

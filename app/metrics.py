@@ -1,5 +1,3 @@
-# app/metrics.py
-
 from prometheus_client import Counter, Histogram
 
 # ─── Counters ───────────────────────────────────────────────────────────────

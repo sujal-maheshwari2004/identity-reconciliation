@@ -1,5 +1,3 @@
-# app/main.py
-
 import logging
 import os
 from contextlib import asynccontextmanager

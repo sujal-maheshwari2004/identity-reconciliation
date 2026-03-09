@@ -1,5 +1,3 @@
-# app/database.py
-
 import os
 import time
 import logging
