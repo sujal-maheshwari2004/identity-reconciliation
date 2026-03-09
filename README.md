@@ -53,7 +53,7 @@ curl -X POST https://your-render-url.onrender.com/identify \
 ```json
 {
   "contact": {
-    "primaryContatctId": 1,
+    "primaryContactId": 1,
     "emails": ["doc@hillvalley.edu"],
     "phoneNumbers": ["123456"],
     "secondaryContactIds": []
