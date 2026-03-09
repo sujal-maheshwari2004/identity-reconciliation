@@ -71,6 +71,8 @@ curl -X POST https://your-render-url.onrender.com/identify \
 
 ## Observability
 Grafana dashboard available at `http://localhost:3000` after running docker-compose. Tracks:
+
+![Tests](https://github.com/sujalmaheshwari/identity-reconciliation/actions/workflows/tests.yml/badge.svg)
 - Request rate
 - p95 latency
 - Contacts created (primary vs secondary)
