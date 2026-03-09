@@ -13,7 +13,7 @@ class IdentifyRequest(BaseModel):
 
 
 class ContactResponse(BaseModel):
-    primaryContatctId: int
+    primaryContactId: int
     emails: list[str]
     phoneNumbers: list[str]
     secondaryContactIds: list[int]
