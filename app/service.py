@@ -83,10 +83,10 @@ def build_response(primary: dict, secondaries: list[dict]) -> IdentifyResponse:
 
     return IdentifyResponse(
         contact=ContactResponse(
-            primaryContatctId=primary['id'],
-            emails=emails,
-            phoneNumbers=phones,
-            secondaryContactIds=secondary_ids
+        primaryContactId=primary['id'],
+        emails=emails,
+        phoneNumbers=phones,
+        secondaryContactIds=secondary_ids
         )
     )
 
